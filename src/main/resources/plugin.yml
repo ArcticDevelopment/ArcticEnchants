@@ -1,0 +1,23 @@
+name: ArcticEnchants
+author: KyroKrypt
+version: 1.0.0
+main: dev.kyro.arcticenchants.ArcticEnchants
+description: Custom enchants
+softdepend: [Factions]
+commands:
+  enchanter:
+    aliases: ["ce", "e"]
+  soundtoggle:
+  enchantgui:
+    aliases: ["test"]
+  sound:
+  cegive:
+permissions:
+  aenchants.admin:
+    default: op
+  aenchants.sounds:
+    default: true
+  aenchants.vguicommand:
+    default: true
+  aenchants.enchanter:
+    default: true

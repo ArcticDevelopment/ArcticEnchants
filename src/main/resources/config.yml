@@ -1,0 +1,174 @@
+prefix: "&7[&b&lA&7]&f "
+error-prefix: "&8[&c&lA&8]&f "
+
+settings:
+  vanilla-enchants:
+    enabled: true
+  custom-enchants:
+    enabled: true
+
+custom-enchants:
+  fire-resistance:
+    name: FireResistanceEnchant
+    description: Gives permanent fire resistance
+    enabled: true
+  haste:
+    name: HasteEnchant
+    description: Gives permanent haste
+    enabled: true
+  health-boost:
+    name: HealthBoostEnchant
+    description: Gives permanent health boost
+    enabled: true
+  jump-boost:
+    name: JumpEnchant
+    description: Gives permanent jump boost
+    enabled: true
+  night-vision:
+    name: NightVisionEnchant
+    description: Gives permanent night vision
+    enabled: true
+  saturation:
+    name: SaturationEnchant
+    description: No hunger loss
+    enabled: true
+  speed:
+    name: SpeedEnchant
+    description: Gives permanent speed
+    enabled: true
+  strength:
+    name: StrengthEnchant
+    description: Gives permanent strength
+    enabled: true
+  water-breathing:
+    name: WaterBreathingEnchant
+    description: Gives permanent water breathing
+    enabled: true
+  jellylegs:
+    name: JellyLegsEnchant
+    description: No fall damage
+    enabled: true
+  rage:
+    name: RageEnchant
+    description: 15% increase in damage with each combo hit
+    enabled: true
+  quickdraw:
+    name: QuickDrawEnchant
+    description: Arrows shoot instantly
+    enabled: true
+  grapple:
+    name: GrappleEnchant
+    description: Launches you towards your opponent
+    enabled: true
+  hydrodynamics:
+    name: HydrodynamicsEnchant
+    description: Bow shots ignore water
+    enabled: true
+  obsidian-breaker:
+    name: ObsidianBreakerEnchant
+    description: Break obsidian instantly
+    enabled: true
+
+vanilla-enchants:
+  protection:
+    name: "Protection"
+    enchant: PROTECTION_ENVIRONMENTAL
+    item: IRON_INGOT
+    cost: 1000
+    max-level: 4
+  unbreaking:
+    name: "Unbreaking"
+    enchant: DURABILITY
+    item: OBSIDIAN
+    cost: 1000
+    max-level: 3
+  sharpness:
+    name: "Sharpness"
+    enchant: DAMAGE_ALL
+    item: QUARTZ
+    cost: 1000
+    max-level: 5
+  fire-aspect:
+    name: "Fire Aspect"
+    enchant: FIRE_ASPECT
+    item: BLAZE_POWDER
+    cost: 1000
+    max-level: 2
+  looting:
+    name: "Looting"
+    enchant: LOOT_BONUS_MOBS
+    item: SPIDER_EYE
+    cost: 1000
+    max-level: 3
+  efficiency:
+    name: "Efficiency"
+    enchant: DIG_SPEED
+    item: REDSTONE
+    cost: 1000
+    max-level: 5
+  fortune:
+    name: "Fortune"
+    enchant: LOOT_BONUS_BLOCKS
+    item: INK_SACK
+    data: 4
+    cost: 1000
+    max-level: 3
+  silk-touch:
+    name: "Silk Touch"
+    enchant: SILK_TOUCH
+    item: WEB
+    cost: 1000
+    max-level: 1
+  respiration:
+    name: "Respiration"
+    enchant: OXYGEN
+    item: RAW_FISH
+    cost: 1000
+    max-level: 3
+  aqua-affinity:
+    name: "Aqua Affinity"
+    enchant: WATER_WORKER
+    item: RAW_FISH
+    data: 3
+    cost: 1000
+    max-level: 1
+  depth-strider:
+    name: "Depth Strider"
+    enchant: DEPTH_STRIDER
+    item: WATER_LILY
+    cost: 1000
+    max-level: 3
+  feather-falling:
+    name: "Feather Falling"
+    enchant: PROTECTION_FALL
+    item: FEATHER
+    cost: 1000
+    max-level: 4
+  infinity:
+    name: "Infinity"
+    enchant: ARROW_INFINITE
+    item: ARROW
+    cost: 1000
+    max-level: 1
+  flame:
+    name: "Flame"
+    enchant: ARROW_FIRE
+    item: FIREBALL
+    cost: 1000
+    max-level: 1
+
+messages:
+  no-permission: "Missing permission"
+  player-only: "Cannot run this from console"
+  sounds-on: "Enchant sounds toggled on"
+  sounds-off: "Enchant sounds toggled off"
+  unstack-enchant: "Cannot apply stacked enchants while in creative"
+  has-enchant: "This item already has that enchant"
+  not-enough-xp: "Not enough experience"
+  inventory-full: "Not enough space in inventory"
+  no-enchant-in-category: "There are no enchants of this type"
+  too-high-level: "Enchant is already at max level"
+  applied-enchant: "Enchant applied successfully"
+  vanilla-enchants-disabled: "The vanilla enchanting system is disabled"
+  custom-enchants-disabled: "The custom enchanting system is disabled"
+  incompatible-enchant: "Enchant not compatible with item"
