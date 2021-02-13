@@ -27,5 +27,5 @@ dependencies {
 
 shadowJar {
 
-    relocate 'dev.kyro.arcticapi', 'dev.kyro.arcticprinter.arcticapi'
+    relocate 'dev.kyro.arcticapi', 'dev.kyro.arcticenchants.arcticapi'
 }
