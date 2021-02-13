@@ -12,13 +12,14 @@ repositories {
     maven { url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/" }
     maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
     maven { url "https://jitpack.io" }
-
-    flatDir {
-        dirs 'libs'
-    }
 }
 
 dependencies {
     compileOnly 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT'
     compileOnly 'com.github.SaberLLC:Saber-Factions:2.4.0-RC'
+}
+
+shadowJar {
+
+    relocate 'dev.kyro.arcticapi', 'dev.kyro.arcticprinter.arcticapi'
 }
